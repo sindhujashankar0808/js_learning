@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Switch Conditions</h1>
+        <p id="india"></p>
+        <script>
+            let state ="TamilNadu";
+            switch(state)
+            {
+                case "TamilNadu":
+                    state="Chennai";
+                    break;
+                    case "Kerala":
+                        state="Trivandram";
+                        break;
+                        case "Maharashtra":
+                            state="Mumbai";
+                            break;
+                            default:
+                                State="no value found";
+            }
+            document.getElementById("india").innerHTML=state;
+        </script>
+    </body>
+</html>
